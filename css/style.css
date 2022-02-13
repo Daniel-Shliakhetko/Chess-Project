@@ -21,8 +21,8 @@ body {
 }
 
 .board {
-  width: 85vw;
-  height: 85vw;
+  width: 97.75vw;
+  height: 97.75vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,12 +36,12 @@ body {
 }
 
 .line {
-  width: 10vw;
+  width: 11.5vw;
 }
 
 .field {
-  width: 10vw;
-  height: 10vw;
+  width: 11.5vw;
+  height: 11.5vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -75,20 +75,20 @@ body {
 }
 
 .indicator {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  width: 10vw;
-  height: 10vw;
+  margin-left: 11.5vw;
+  margin-right: 11.5vw;
+  width: 11.5vw;
+  height: 11.5vw;
   border-radius: 50%;
   background-color: white;
-  border: 1vw solid black;
+  border: 1.15vw solid black;
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
 
 .posible {
-  height: 5vw;
-  width: 5vw;
+  height: 5.75vw;
+  width: 5.75vw;
   position: absolute;
   background-color: #f1e0ac;
   opacity: 0.5;
@@ -227,7 +227,7 @@ body {
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
-  font-size: 5vw;
+  font-size: 5.75vw;
   color: #f1e0ac;
   text-transform: uppercase;
   -webkit-transition: 0.25s;
@@ -235,14 +235,14 @@ h1 {
 }
 
 input {
-  font-size: 5vw;
-  margin-top: 5vw;
+  font-size: 5.75vw;
+  margin-top: 5.75vw;
   max-width: 90%;
-  padding: 5vw;
+  padding: 5.75vw;
   outline: none;
   background-color: #495371;
   color: #f1e0ac;
-  border-radius: 5vw;
+  border-radius: 5.75vw;
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
@@ -269,16 +269,16 @@ input::placeholder {
 }
 
 #start-game {
-  margin-top: 5vw;
-  font-size: 5vw;
+  margin-top: 5.75vw;
+  font-size: 5.75vw;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 5vw;
+  padding: 5.75vw;
   background-color: #f1e0ac;
   color: #495371;
-  border-radius: 5vw;
-  margin-bottom: 5vw;
+  border-radius: 5.75vw;
+  margin-bottom: 5.75vw;
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
@@ -291,7 +291,7 @@ input::placeholder {
 }
 
 p, span {
-  font-size: 5vw;
+  font-size: 5.75vw;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   color: #f1e0ac;
@@ -310,7 +310,7 @@ p, span {
 span {
   -webkit-transition: 0.25s;
   transition: 0.25s;
-  font-size: 5vw !important;
+  font-size: 5.75vw !important;
   margin-top: 1em;
   margin-bottom: 1em;
 }
